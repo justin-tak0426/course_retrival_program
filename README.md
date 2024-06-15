@@ -9,16 +9,16 @@ The purpose of the program is to help computer science major students easily che
 The basis for establishing the class hierarchy is the categories of courses required for graduation. For each category, the courses taken are managed, and the credits earned and credits lacking are calculated.
 This is UML diagram of classes and interfaces.
 
-![UML](https://github.com/justin-tak0426/course_retrival_program/assets/79962142/7b819552-4835-4146-926a-691387a1ee5b)
-![Major_UML](https://github.com/justin-tak0426/course_retrival_program/assets/79962142/4a236a65-18c0-4d25-a601-0d5644ec2f1f)
-![NotMajor_UML](https://github.com/justin-tak0426/course_retrival_program/assets/79962142/8d3e1487-c845-496e-9217-17b039dd4991)
+![UML](https://github.com/justin-tak0426/course_retrival_program/assets/79962142/9b93ca1c-57bc-43e1-ac55-812aa91c2c38)
+
+![Major_UML](https://github.com/justin-tak0426/course_retrival_program/assets/79962142/e0867dae-4970-4d95-a612-b8e9ff558eb1)
+
+![NotMajor_UML](https://github.com/justin-tak0426/course_retrival_program/assets/79962142/ba4044d6-c7e9-41ac-9c07-4a8a01e79051)
+
 
 ## 3. The roles of each classes
 ### Main class
 The Main class serves the role of displaying the program's menu. The functions of the selected menu are implemented in the Course class. It continues to show the menu until the user terminates the program.
-
-<img width="170" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/0c5f1f2f-bbcd-43bb-92bb-20474a670fa5">
-
 In the class, the courses informations are managed by ArrayList<Course>.
 
 ### CreditInfo class
@@ -579,11 +579,13 @@ After you input some courses information, the results is like the below image.
 
 ### 1: Input the courses I took.
 After you choose number 1, you can see the list of major required courses. And you have to input the name, credit, grade of the course, and if it is English course.
+
 <img width="150" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/f581add6-4adb-4f7f-8edf-d5acc1f54d29">
 <img width="498" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/b0e03ac0-64e5-4494-88aa-bd64a539e5bd">
 
 
 Also, you have to enter the type of course (Required, Design, Choose, General, etc.).
+
 <img width="221" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/0e4007cc-f04f-4906-b33e-68521b2c0ecb">
 
 
