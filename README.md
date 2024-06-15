@@ -553,7 +553,8 @@ These class is not major class. So, I didn't make special methods and field. The
 ### Start program
 when you start the program, you can see the menu. 
 
-<img width="160" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/147861cb-bbf3-4d2c-8007-4ad92af1ae80">
+<img width="165" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/39e24519-6917-4ecd-a379-c0943a306b67">
+
 
 choose the menu what you want to do. 
 0: show current credits information.
@@ -570,74 +571,86 @@ If you finish each functions, you can see menu again, and select what you need a
 Initial values are all 0 before you input courses you took.
 The credits information has the format like "the credits you took / remained credits you have to take"
 
-<img width="285" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/3dd3d521-111e-4211-9b8e-790e43e1ea61">
+<img width="283" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/9ea977c0-c811-4f8c-9bf2-828ccc50352c">
 
 After you input some courses information, the results is like the below image.
 
-<img width="289" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/a7b7e5fb-3f5a-402d-ad79-b53f1b2cf284">
+
 
 ### 1: Input the courses I took.
 After you choose number 1, you can see the list of major required courses. And you have to input the name, credit, grade of the course, and if it is English course.
+<img width="150" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/f581add6-4adb-4f7f-8edf-d5acc1f54d29">
+<img width="498" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/b0e03ac0-64e5-4494-88aa-bd64a539e5bd">
 
-<img width="497" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/e092cddd-d34e-44f9-842b-2b219dde29d6">
 
 Also, you have to enter the type of course (Required, Design, Choose, General, etc.).
+<img width="221" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/0e4007cc-f04f-4906-b33e-68521b2c0ecb">
 
-<img width="246" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/6db0d74c-a9c7-472c-81a1-3ccee001d71d">
 
 If you choose Design type, you can check the design credit of your course, and input the design credit of the course.
 
-<img width="257" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/b977bc94-a63c-43ad-a452-a66b9241877a">
+<img width="264" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/9abd9383-f87c-4a39-9164-8b838a0ee3d4">
+
 
 After choosing the type of course, you can check if your input is correct. If the input is correct, you can add the course in the course list.
 
-<img width="451" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/480c5c79-0da1-4533-a54e-0aa36c9e8aa8">
+<img width="473" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/83acd56a-cafd-42a9-9331-2c27dd561347">
+
 
 When you input "q", the function is finished, and show your GPA.
 
-<img width="392" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/50b4d39f-2327-44b9-85a0-25a88124f974">
+<img width="390" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/63d346bf-16ee-4483-9236-469c8cc0077c">
+
 
 ### 2. show the courses I took and the information of the courses.
 You can see the courses information you took. It includes name, credit, grade, and if the course is English course.
 
-<img width="429" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/20db81ba-4039-4f5f-8199-5a5b67d0f4b9">
+<img width="436" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/ce0ff075-d48d-42f4-a4db-a313d23d31f9">
+
+
 
 ### 3. save the courses list into text file (course.txt).
 You can save the courses list into text file (course.txt). This file is stored in your java project repository. If you want to change your saving directory, you can change the code in Course Class (saveCourses method).
 
-<img width="206" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/6426b5b9-4264-45c2-a287-e73647120f64">
+<img width="204" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/ea4f04e8-b4ab-4ae1-86da-2904b8f13682">
+
 
 The result text file is stored as the below image.
 
-<img width="421" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/d3bb086d-469e-4c78-b53b-7a69d90d7c62">
+<img width="444" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/3b483ec7-f031-4223-b1ba-f2e26d30add8">
+
 
 ### 4. load the courses list from text file (course.txt).
 You can load the courses when you start the program or during the program.
 
 - before loading the course data
 
-<img width="281" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/700ecaf8-0f60-4306-b27f-233a2c3ee139">
-<img width="288" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/c066e174-2005-4268-a955-3f435b84e374">
+<img width="291" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/e9f79834-226b-448b-aa27-95c0d7125f4d">
+<img width="170" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/f71f3e24-e036-4ad7-bef3-35f39bb91b19">
 
 - after loading the course data
 
-<img width="277" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/39a9dd40-32f0-4897-a887-a114a4bcd5b4">
-<img width="431" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/f8ad5f9f-7869-4989-befd-e368a1be47dc">
+<img width="282" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/50d380f9-0fa7-4e4b-a5b8-820f23ce9123">
+<img width="445" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/14288e9a-48bd-4fe1-91ff-52e38e8a65b6">
+
 
 ### 5. remove the course I took in the list.
 You can remove the course you took in the course list by using the course name.
 If you input the wrong name, you can't remove the course.
 
-<img width="216" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/3c219854-07d2-4c6f-a9b9-f68e3637759a">
+<img width="238" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/05cf40db-2b6b-4243-8dc6-4cf7ebfed98b">
+
 
 If your input is correct, the course is deleted in the course list.
 
-<img width="304" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/93845cea-bd17-4b84-8207-044b6207f6bf">
-<img width="425" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/004d7272-25c5-4ab7-a3ed-23fe8844ca05">
+<img width="316" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/586830a8-a156-4a80-a473-e26b57ec063a">
+
+<img width="428" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/b48deb5a-6c42-4550-9a3f-f668e715bff7">
 
 
 ### 6. terminate the program.
 If you want to finish the program, input number 6 in the console.
 
-<img width="173" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/c66256d2-c569-4229-9b28-769c8f5f531c">
+<img width="195" alt="image" src="https://github.com/justin-tak0426/course_retrival_program/assets/79962142/8ee16276-f75f-466c-9fd8-096a4142cedc">
+
 
